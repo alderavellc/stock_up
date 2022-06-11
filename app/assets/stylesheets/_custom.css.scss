@@ -1,2 +1,11 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+.alert-alert {
+	@extend .alert-danger;
+	height: 3rem;
+}
+
+.alert-notice {
+	@extend .alert-success;
+	height: 3rem;
+}
